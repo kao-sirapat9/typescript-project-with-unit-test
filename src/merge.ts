@@ -32,3 +32,7 @@ export function merge(
     const merge12 = merge2(collection1, asc2);
     return merge2(merge12, collection3);
 }
+
+console.log(
+    merge([1, 3, 5], [9,7,4], [2,6,8,10])
+);
